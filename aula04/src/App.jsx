@@ -1,11 +1,8 @@
-import Logo from './components/Logo';
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <>
-      <Logo imagem="Logo1.png" />
-      <Logo imagem="Logo2.png"/>
-    </>
+    <Login />
   );
 }
 
